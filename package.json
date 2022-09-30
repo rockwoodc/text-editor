@@ -11,9 +11,7 @@
     "client": "cd client && npm start",
     "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" "
   },
-  "engines": {
-    "node": "16.6.0"
-  },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
