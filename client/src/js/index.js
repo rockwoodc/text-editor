@@ -5,6 +5,11 @@ import '../css/style.css';
 import Logo from '../images/logo.png';
 import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { initDb, getDb, postDb } from './database';
+
+window.addEventListener('load', function() {
+  initDb()
+});
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
