@@ -10,7 +10,7 @@ const path = require('path');
 
 module.exports = () => {
   return {
-    mode: 'development',
+    mode: 'production',
     entry: {
       main: './src/js/index.js'
       
