@@ -1,7 +1,7 @@
 import { openDB } from 'idb';
 import 'regenerator-runtime/runtime';
 
-const initDb = async () =>
+export const initDb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
       if (db.objectStoreNames.contains('jate')) {
